@@ -5,49 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>DropdownMenu</title>
 </head>
 <body>
     <nav class="menu">
-        <ul class="style-none">
+        <ul>
             <li>
-                <a href="#" class="decoration-none">Home</a>
+                <a href="#">Home</a>
             </li>
             <li>
-                <a href="#" class="decoration-none">About</a>
+                <a href="#">About</a>
             </li>
             <li>
-                <a href="#" class="decoration-none">Lessons</a>
+                <a href="#">Lessons</a>
                 <div class="dropdown">
-                    <ul class="style-none">
+                    <ul>
                         <li>
-                            <a href="#" class="decoration-none">HTML Lessons</a>
+                            <a href="#">HTML Lessons</a>
                         </li>
                         <li>
-                            <a href="#" class="decoration-none">CSS Lessons</a>
-                            <ul style="display: none;" class="style-none">
-                                <li>
-                                    <a href="#" class="decoration-none">Inline CSS</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="decoration-none">Internal CSS</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="decoration-none">External CSS</a>
-                                </li>
-                            </ul>
+                            <a href="#">CSS Lessons</a>
                         </li>
                         <li>
-                            <a href="#" class="decoration-none">JS Lessons</a>
+                            <a href="#">JS Lessons</a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li>
+                                        <a href="#">Variables</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Data Types</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Functions</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Objects</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                         <li>
-                            <a href="#" class="decoration-none">React Lessons</a>
+                            <a href="#">MongoDB Lessons</a>
                         </li>
                     </ul>
                 </div>
             </li>
         </ul>
     </nav>
-    
 </body>
 </html>
